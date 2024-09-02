@@ -5,7 +5,7 @@ import { div } from "three/webgpu";
 
 const Testimonials = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-20" id="testimonials">
       <h1 className="heading py-10">
         Kind Words From <span className="text-purple">Satisfied</span> Clients
       </h1>
