@@ -19,12 +19,12 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm in Denver, Colorado",
-    description: "Let's chat IRL",
+    title: "",
+    description: "Want to work together? I'm in",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "",
+    img: "/location.svg",
     spareImg: "",
   },
   {
@@ -60,8 +60,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Let's work together!",
-    description: "",
+    title: "Let's get in touch!",
+    description: "Better Together",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
