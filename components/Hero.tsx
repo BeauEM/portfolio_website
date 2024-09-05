@@ -34,7 +34,7 @@ const Hero = () => {
             words="Transforming Concepts into Seamless User Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, Im Beau. A Full-Stack WebDev based in Colorado.
+            Hi, Im Beau. A Full-Stack Engineer.
           </p>
           <a href="/about">
             <MagicButton

@@ -6,9 +6,9 @@ import { div } from "three/webgpu";
 const Testimonials = () => {
   return (
     <div className="py-20" id="testimonials">
-      <h1 className="heading py-10">
-        Kind Words From <span className="text-purple">Satisfied</span> Clients
-      </h1>
+      <h2 className="heading py-10">
+        Kind Words From <span className="text-lime-400">Satisfied</span> Clients
+      </h2>
       <div className="flex flex-col items-center max-lg:mt-10 p-2">
         <InfiniteMovingCards
           items={testimonials}

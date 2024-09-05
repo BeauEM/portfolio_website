@@ -8,7 +8,6 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
-import { div } from "three/webgpu";
 import { MapPin } from "lucide-react";
 
 interface BentoItemProps {
@@ -115,7 +114,7 @@ export const BentoGridItem = ({
             <div className="flex">
               <MapPin className="lg:h-8 lg:w-8 h-5 w-5" />
               <p className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10 ml-1">
-                Denver, Colorado
+                <span className="text-lime-400">Denver</span>, Colorado
               </p>
               <GridGlobe />
             </div>
