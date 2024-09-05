@@ -1,6 +1,5 @@
 import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
-import Hero from "@/components/Hero";
 import Hero2 from "@/components/Hero2";
 import RecentProjects from "@/components/RecentProjects";
 import Testimonials from "@/components/Testimonials";

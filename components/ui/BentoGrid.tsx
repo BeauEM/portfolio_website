@@ -111,7 +111,7 @@ export const BentoGridItem = ({
             {title}
           </div>
           {id === 2 && (
-            <div className="flex">
+            <div className="flex mt-2">
               <MapPin className="lg:h-8 lg:w-8 h-5 w-5" />
               <p className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10 ml-1">
                 <span className="text-lime-400">Denver</span>, Colorado
