@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const Hero2 = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0">
+    <div className="py-32 md:py-48 lg:py-60 relative">
       <div className="size-[650px] hero-ring"></div>
       <div className="size-[780px] hero-ring"></div>
       <div className="size-[952px] hero-ring"></div>
@@ -35,7 +35,7 @@ const Hero2 = () => {
             the web.
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center gap-4 px-6 h-12 rounded-xl">
+        <div className="flex flex-col items-center justify-center gap-4 px-6 h-12 rounded-xl z-50">
           <a href="/about">
             <MagicButton
               title="See Work"
