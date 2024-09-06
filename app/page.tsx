@@ -12,9 +12,9 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <div className="relative flex justify-center items-center flex-col mx-auto sm:px-10 px-5 z-7 overflow-clip">
+        <div className="flex justify-center items-center flex-col sm:px-5 z-7 overflow-clip">
           <Grid />
-          <div className="max-w-7xl w-full">
+          <div className="max-w-7xl items-center justify-center">
             <RecentProjects />
             <Testimonials />
             <Experience />

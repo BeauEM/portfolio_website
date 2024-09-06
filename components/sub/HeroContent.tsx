@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import {
@@ -6,7 +7,7 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/utils/motion";
-import { SparklesIcon } from "lucide-react";
+import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
 const HeroContent = () => {
@@ -33,8 +34,9 @@ const HeroContent = () => {
         >
           <span>
             Providing
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              the best
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple to-cyan-500">
+              {" "}
+              the best{" "}
             </span>
             project exprience
           </span>
