@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Beau Elliott's Webdev Portfolio",
   description:
-    "Modern Next.JS Portfolio showcasing Beau Elliott's web development work",
+    "Modern React portfolio showcasing Beau Elliott's web development work in Denver, Colorado",
 };
 
 export default function RootLayout({
@@ -19,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

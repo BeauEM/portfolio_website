@@ -5,9 +5,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 const Hero2 = () => {
   return (
     <div className="py-32 md:py-48 lg:py-60 relative">
-      <div className="size-[650px] hero-ring"></div>
-      <div className="size-[780px] hero-ring"></div>
-      <div className="size-[952px] hero-ring"></div>
+      <div className="size-[750px] hero-ring"></div>
+      <div className="size-[790px] hero-ring"></div>
+      <div className="size-[980px] hero-ring"></div>
       <div className="size-[1180px] hero-ring"></div>
       <div className="size-[1420px] hero-ring"></div>
 

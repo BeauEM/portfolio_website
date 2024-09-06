@@ -5,6 +5,8 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const navLinks = [];
+
 export const gridItems = [
   {
     id: 1,
@@ -51,7 +53,7 @@ export const gridItems = [
   {
     id: 5,
     title: "Currently building a open-source email marketing platform.",
-    description: "The Inside Scoop",
+    description: "Side Projects...",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
